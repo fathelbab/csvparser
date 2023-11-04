@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/fathelbab/csvparser/static/css/main.13bee4e7.css",
+    "main.js": "/fathelbab/csvparser/static/js/main.945c0903.js",
+    "static/js/787.62e876f1.chunk.js": "/fathelbab/csvparser/static/js/787.62e876f1.chunk.js",
+    "static/media/1test.png": "/fathelbab/csvparser/static/media/1test.411f129578c016925982.png",
+    "static/media/3.jpeg": "/fathelbab/csvparser/static/media/3.80910205c31519104e25.jpeg",
+    "static/media/2.jpeg": "/fathelbab/csvparser/static/media/2.75f71564a11641e1a819.jpeg",
+    "index.html": "/fathelbab/csvparser/index.html",
+    "main.13bee4e7.css.map": "/fathelbab/csvparser/static/css/main.13bee4e7.css.map",
+    "main.945c0903.js.map": "/fathelbab/csvparser/static/js/main.945c0903.js.map",
+    "787.62e876f1.chunk.js.map": "/fathelbab/csvparser/static/js/787.62e876f1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13bee4e7.css",
+    "static/js/main.945c0903.js"
+  ]
+}
