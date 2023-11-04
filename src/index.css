@@ -108,6 +108,10 @@ table td {
 
 .cell {
   position: relative;
+  display: flex;
+  flex-direction:  row; /* Stack button and content vertically */
+  /* align-items: center; */
+  justify-content: space-between;
 }
 
 a {
@@ -116,14 +120,16 @@ a {
 }
 
 .copy-button {
-  position: absolute;
-  top: 0;
-  right: 0;
+  position: relative;
+  /* top: 0;
+  right: 0; */
   background-color: #007bff;
   color: #fff;
   border: none;
   padding: 5px 10px;
+  margin: 5px;
   cursor: pointer;
+  max-width: 100px;
 }
 
 .copy-button:hover {

@@ -24,7 +24,6 @@ function App() {
   
     return cleanedMobileNumber;
   }
-
   useEffect(() => {
     if (data && removeZeroToggle) {
       setDataBackup(data);
@@ -100,7 +99,7 @@ function App() {
               <td>
                 <div class="cell">
                   <a
-                    href={`https://wa.me/send/?phone=${user[2]}&text=${message}&type=phone_number&app_absent=0`}
+                    href={`https://api.whatsapp.com/send/?phone=${user[2]}&text=${message}&type=phone_number&app_absent=0`}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -114,8 +113,7 @@ function App() {
                   {user[2]}
                   <CopyToClipboard class="copy-button" text={user[2]}><span>Copy Mobile</span></CopyToClipboard>
                 </div>
-                <a className="save-to-contacts" href={`tel:${user[2]}`}>Save to Contacts</a>
-
+                {/* <a className="save-to-contacts" href={`tel:${user[2]}`}>Save to Contacts</a> */}
               </td>
             </tr>
           ))
